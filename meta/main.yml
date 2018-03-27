@@ -3,5 +3,10 @@ galaxy_info:
   description: Installs a systemd unit for sending mail on Rasbpian.
   license: GFDL
 
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+
 dependencies:
  - davea.ssmtp
