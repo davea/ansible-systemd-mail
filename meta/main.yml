@@ -1,6 +1,7 @@
 galaxy_info:
   author: Dave Arter
   description: Installs a systemd unit for sending mail on Rasbpian.
+  license: GFDL
 
 dependencies:
  - davea.ssmtp
