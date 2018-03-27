@@ -1,0 +1,14 @@
+- name: Create systemd-mail script
+  copy:
+    src: systemd-mail
+    dest: /usr/local/bin/systemd-mail
+    owner: root
+    group: root
+    mode: 0755
+
+- name: Create systemd unit
+  copy:
+    src: status-email-root@.service
+    dest: /etc/systemd/system/status-email-root@.service
+    owner: root
+    group: root
